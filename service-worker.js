@@ -2,7 +2,7 @@ self.addEventListener('push', function(event) {
     self.addEventListener('push', function(event) {
         var title = 'メッセージが届きました';
         var body  = 'メッセージ内容は、こんにちわ！です';
-        var icon  = '/images/touch/chrome-touch-icon-192x192.png';
+        //var icon  = '/images/touch/chrome-touch-icon-192x192.png';
         var tag   = 'simple-push-demo-notification-tag';
 
         event.waitUntil(
