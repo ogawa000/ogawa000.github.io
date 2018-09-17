@@ -13,5 +13,5 @@
     }],
     "start_url":"./?utm_source=homescreen",
     "display":"standalone",
-    "gcm_sender_id":671561427569
+    "gcm_sender_id":"671561427569"
 }
