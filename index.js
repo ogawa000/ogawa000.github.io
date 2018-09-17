@@ -144,7 +144,7 @@ function unsubscribed(){
     });
 }
 
-funtion sendSubscribeToServerForDelete(subscription){
+function sendSubscribeToServerForDelete(subscription){
     console.log('sending to server for delete:',subscription);
 }
 
