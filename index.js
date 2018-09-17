@@ -202,6 +202,7 @@ function initialiseState() {
 
 window.addEventListener('load', function() {
   var pushButton = document.querySelector('.js-push-button');
+  if(pushButton != null){
   pushButton.addEventListener('click', function() {
     if (isPushEnabled) {
       unsubscribe();
@@ -209,7 +210,7 @@ window.addEventListener('load', function() {
       subscribe();
     }
   });
-
+  }
   // Check that service workers are supported, if so, progressively
   // enhance and add push messaging support, otherwise continue without it.
   if ('serviceWorker' in navigator) {
